@@ -1,0 +1,171 @@
+// Here you can add other styles
+html{
+    font-family: "SF Pro Text";
+    font-size: 16px;
+}
+.text-white{
+    color: #fff;
+}
+.bg-default{
+    background-color: #141414;
+    background: #141414;
+}
+.btn-default{
+    padding: 8px 16px;
+    background-color: #AA3E19;
+    color:#fff;
+    font-size: 16px;
+    border: 0;
+    border-radius: 2px;
+    width:inherit;
+}
+.justify-end{
+    justify-content: FLEX-END;
+    display: flex;
+}
+
+.sidebar{
+    background-color: #303030;
+
+    .sidebar-nav{
+        background-color: #1D1D1D;
+
+        .nav-link.active{
+            background: #7C3118
+        }
+    }
+    .sidebar-brand{
+        background: #303030;
+        opacity: 50%;
+    }
+}
+
+.header{
+    background: #303030;
+    border-bottom: none;
+
+    .avatar{
+        background: #5A5A5A;
+    }
+}
+
+// custom scroll bar
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+// custom scroll bar
+
+.profile-page{
+    .gallery-section{
+        height: 500px;
+        background: url('../assets/images/funny-awkward.jfif');
+        background-size: 100%;
+        position: relative;
+    }
+    .cover-top-gradiant{
+        position: absolute;
+        width: 100%;
+        height: 126.5px;
+        padding: 30px 40px;
+        background: linear-gradient(180deg, #141414 0%, rgba(0, 0, 0, 0) 100%);
+
+        #show_what_others_see{
+            background: #2A1215;
+            opacity: 0.8;
+        }
+    }
+    .cover-bottom-gradiant{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 132px;
+        background: #141414;
+        opacity: 0.5;
+    }
+    .cover-bottom-section{
+        position: absolute;
+        z-index: 5;
+        bottom: 0;
+        color:#fff;
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+        padding: 34px 44px;
+
+        .gallery-tt-section{
+            .gallery-tt{
+                font-size: 32px;
+            }
+            .gallery-st{
+                font-size: 16px;
+                color: #cbcad7;
+            }
+        }
+    }
+    @media (max-width: 576px) {
+        .cover-bottom-section{
+            display:block;
+        }
+    }
+    .blog-section-list{
+        color: #ACACAC;
+
+        .bl-title{
+            font-size: 20px;
+            color: #FFFFFF;
+        }
+        .bl-content{
+            color: #ACACAC;
+        }
+        .music-widget{
+            width: 100%;
+            height: 226px;
+            background: #7D7D7D;
+            color:#000;
+            div{
+                margin: 97px 100px;
+                display: inline-block;
+            }
+        }
+        .bl-art-card{
+            padding: 20px;
+            background: #262626;
+            border-radius: 10px;
+            .bl-art-title{
+                font-size: 18px;
+                color:#fff;
+            }
+        }
+        .show-past-shows{
+            background: transparent;
+            color: #D84A1B;
+        }
+        .social-list{
+            color:#D84A1B;
+        }
+        .download-item{
+            position: relative;
+            .download-btn{
+                position: absolute;
+                bottom: 10px;
+                right: 24px;
+            }
+        }
+        .download-link{
+            color:#D84A1B;
+        }
+    }
+}

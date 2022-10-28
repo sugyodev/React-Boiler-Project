@@ -1,0 +1,1 @@
+export const SIDEBAR_SET = "APP_SIDEBAR_SET";
